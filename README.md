@@ -6,12 +6,12 @@ Following are the Key point and tools We are using:
     TK() = to create a whole form.
     Frame(form) = to create a separate panel and parameter is the window/form on which frame will created
     pack(side= TOP/BOTTOM/LEFT/RIGHT) = place at specific block of window
-    BUTTON(destination,text="..",fg="..",borderwidth=)=to place button on form or frame
+    BUTTON(destination,text="..",fg="..",borderwidth=,command=)=to place button on form or frame
     grid(row= , column= ,rowspan= ,columnspan=,padx=,pady=,Sticky=E/W/N/S) = adjust in table like structure using columns and rows
     Label(destination,text="..",fg="..") = to display captions of Textboxes/entry box
-    Entry(destination,bd=) = When you want user to enter data it will be in entry box- bd is border
+    Entry(destination,bd=,textvariable=) = When you want user to enter data it will be in entry box- bd is border
     place(x=,y=) = to place at specific position on the bases of X and Y values
-
+    Menu(destination)
 Description of each code:
 1.Double Frame:
                 In this we Just create 2 separate Frames.
@@ -32,5 +32,10 @@ Description of each code:
                 We use Sticky
                 A form we  see somewhere in our daily life
 4.Place Geometry
-                creating Simple forms using Place() function
+                Creating Simple forms using Place() function
                 Using X and Y value to place at specific positon
+5.Calculator Menu
+                Create a Menu Bar add two option Operation and Exit
+                Create separate frames for Buttons
+                Create separate frames for Inputs
+                Adding Commands for buttons
