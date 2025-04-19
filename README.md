@@ -39,3 +39,8 @@ Description of each code:
                 Create separate frames for Buttons
                 Create separate frames for Inputs
                 Adding Commands for buttons
+6. Calculator with Input Buttons
+                Create a Calculator
+                Add Buttons for input(0-9) 
+                Also Add Clear Button
+                
