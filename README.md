@@ -7,8 +7,9 @@ Following are the Key point and tools We are using:
     Frame(form) = to create a separate panel and parameter is the window/form on which frame will created
     pack(side= TOP/BOTTOM/LEFT/RIGHT) = place at specific block of window
     BUTTON(destination,text="..",fg="..",borderwidth=)=to place button on form or frame
-    grid(row= , column =) = adjust in table like structure using columns and rows
-
+    grid(row= , column= ,rowspan= ,columnspan=,padx=,pady=,Sticky=E/W/N/S) = adjust in table like structure using columns and rows
+    Label(destination,text="..",fg="..") = to display captions of Textboxes/entry box
+    Entry(destination) = When you want user to enter data it will be in entry box
 
 Description of each code:
 1.Double Frame:
@@ -21,3 +22,11 @@ Description of each code:
                 Adjust Buttons using grid() instead of pack() 
                 Create a grid of 25 buttons
                 input rows and columns not left or right as in pack()
+3.Grid Manager Demo:
+                Create a form 
+                Adjust the positions using grid()
+                We use Label()
+                We use Entry()
+                We adjust padding padx=,pady=
+                We use Sticky
+                A form we  see somewhere in our daily life
