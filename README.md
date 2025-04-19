@@ -9,7 +9,8 @@ Following are the Key point and tools We are using:
     BUTTON(destination,text="..",fg="..",borderwidth=)=to place button on form or frame
     grid(row= , column= ,rowspan= ,columnspan=,padx=,pady=,Sticky=E/W/N/S) = adjust in table like structure using columns and rows
     Label(destination,text="..",fg="..") = to display captions of Textboxes/entry box
-    Entry(destination) = When you want user to enter data it will be in entry box
+    Entry(destination,bd=) = When you want user to enter data it will be in entry box- bd is border
+    place(x=,y=) = to place at specific position on the bases of X and Y values
 
 Description of each code:
 1.Double Frame:
@@ -30,3 +31,6 @@ Description of each code:
                 We adjust padding padx=,pady=
                 We use Sticky
                 A form we  see somewhere in our daily life
+4.Place Geometry
+                creating Simple forms using Place() function
+                Using X and Y value to place at specific positon
